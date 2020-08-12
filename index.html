@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>CSS</title>
+        <link rel="stylesheet" type="text/css" href="css/app.css">
+    </head>
+    <body class="page-login">
+        <div id="container">
+            <div class="header-block">
+                <p><img class="concert-logo-header" src="images/logo.png" alt=""></p>
+            </div>
+
+            <h1 class="sign-in-text">Welcome back!</h1>
+
+            <div class="container_wrapper">
+                <div class="salesforce-wrapper">
+                    <img src="images/salesforce_white.png" class="salesforce-icon" alt=""><a href=""><span class="spans">Sign in with Salesforce</span></a>
+                </div>
+                <div id="seprator"><hr></div>
+                <form method="GET" action="#">
+                    <div class="textlog"><h1 class="heading-logo">Or log in with Concert credentials</h1></div>
+                    <div id="input-wrapper">
+                        <div class="form-elements">
+                            <div class="sub-input-wapper-email">
+                                <label>
+                                    <i class="input-icon" id="icon-email">&#9998;</i>
+                                    <input type="text" placeholder="E-Mail Address" class="email form-control" name="email" id="email" autocomplete="off" >
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-elements">
+                            <div class="sub-input-wapper-password">
+                                <label>
+                                    <i class="input-icon" id="icon-password">&#9786;</i>
+                                <input type="password" class="password form-control" placeholder="Password" name="password" id="password">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="Resset">
+                        <a href="#" class="reset_password">Reset Password?</a>
+                          </div>
+                        <div class="form-elements">
+                            <button type="submit" class="submit-button btn btn-primary" id="button">Sign in</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
